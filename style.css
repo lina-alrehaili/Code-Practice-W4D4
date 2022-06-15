@@ -1,0 +1,176 @@
+.header {
+    margin-left: 106px;
+    margin-right: 106px;
+    margin-top: 15px;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head h1 {
+    margin-left: 100px;
+}
+
+.center-it {
+    margin: 20px;
+    text-align: center;
+}
+
+.head img {
+    width: 90px;
+    position: absolute;
+}
+
+.blue-txt {
+    color: #0077CC;
+}
+
+.header-nav {
+    background-image: linear-gradient(rgb(63, 98, 168), #42A1EC, rgb(63, 98, 168));
+    color: #fff;
+}
+
+.red-txt {
+    color: red;
+}
+
+.header-container {
+    padding: 10px;
+}
+
+.col-3 {
+    color: rgb(67, 67, 67);
+    align-items: center;
+    margin-top: 20px;
+}
+
+#learnBtn {
+    width: 80%;
+    background-image: linear-gradient(#61ceef, rgb(0, 180, 235));
+    border: 1px solid #0077CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 9px 15px;
+}
+
+#ninja {
+    height: 200px;
+}
+
+.btn1 {
+    width: 95%;
+    background-image: linear-gradient(#42A1EC, rgb(63, 98, 168));
+    border: 1px solid #0077CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 9px 15px;
+}
+
+.btn2 {
+    width: 95%;
+    background-image: linear-gradient(rgb(252, 199, 101), rgb(255, 145, 0));
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 9px 15px;
+}
+
+.col-3 button {
+    margin: 2%;
+}
+
+.container {
+    background-image: linear-gradient(rgb(225, 225, 225), white);
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btm-cnt{
+    display: flex;
+    margin: 15px;
+    gap: 15px;
+}
+.bottom-container {
+    display: flex;
+    box-shadow: 3px 3px grey;
+    border: 5px #0077CC;
+    border-style: solid;
+    margin: 15px;
+}
+
+.line-up {
+    border-top: rgb(66, 66, 66) solid 2px;
+    margin-top: 10px;
+}
+
+.col-3 img {
+
+    height: 350px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.learn-more {
+    margin-top: 15px;
+    color: #fff;
+    background-image: url("images/ad_background.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.home {
+    display: flex;
+    gap: 10px;
+    color: #0077CC;
+    align-items: center;
+}
+
+.home img,
+.phone img {
+    width: 30px;
+}
+
+.home h5,
+.phone h5 {
+    margin-top: 10px;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.light-blue {
+    color: #059eb2;
+}
+
+.bottom-container img {
+    width: 100px;
+}
+
+#c-s {
+    display: flex;
+    justify-content: center;
+}
+
+#c-s img {
+    width: 300px;
+}

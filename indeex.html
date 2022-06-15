@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Code Practice W4D1
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head">
+            <img src="images/globe.png" alt="globe img">
+            <h1> The Inter<span class="blue-txt">net</span> </h1>
+        </div>
+        <div class="header-nav">
+            <div class="header-container">
+                <h3>The World Wide Web</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h5>So, what's an <span class="red-txt">Internet?</span></h5>
+                <h5>An <span class="blue-txt">Inter</span>connected <span class="blue-txt">Net</span>work of computers all around the world!</h5>
+                <button class="btn1">WATCH A VIDEO</button>
+                <button class="btn2">MORE RESOURCES</button>
+                <div class="line-up">
+                    <div class="learn-more">
+                        <div class="center-it">                        
+                            <h3>Reinvent you career in just 14 weeks</h3>
+                        </div>
+                        <img src="images/ninja.png" alt="laern more img" id="ninja">
+                        <button id="learnBtn">Learn More >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="top-container">
+                    <div class="home">
+                        <img src="images/home.png" alt="home img">
+                        <h5>DNS</h5>
+                    </div>
+                    <div class="phone light-blue">
+                        <img src="images/phone.png" alt="phone img">
+                        <h5>855.967.3787</h5>
+                    </div>
+                </div>
+                <div class="line-up">
+                    <h3 class="blue-txt">Clients and Servers</h3>
+                    <p>Computers connected to the <span class="light-blue"><b>Web</b></span> are called <b>clients</b> and <b>servers</b>.</p>
+                    <ul>
+                        <li><span class="light-blue"><b>Clients</b></span> are the typical Web user's Internet-connected devices (for example, your computer
+                            connected to your Wi-F1, or your phone connected to your mobile network) and <span class="light-blue"><b>Web-accessing software</b></span>
+                            available on those devices (usually a web browser like Firefox or Chrome).</li>
+                        <li><span class="light-blue"><b>Servers</b></span> are computers that store <span class="light-blue"><b>webpages</b></span>, 
+                            <span class="light-blue"><b>sites</b></span>, or <span class="light-blue"><b>apps</b></span>. When a client device wants to
+                            access a webpage, a copy of the webpage is downloaded from the server onto the client
+                            machine to be displayed in the user's web browser.</li>
+                    </ul>
+                    <div id="c-s">
+                        <img src="images/client_server.jpg" alt="client and server img">
+                    </div>
+                    <h3 class="blue-txt">So What Actually Happens?</h3>
+                    <ol>
+                        <li>The browser goes to the <span class="light-blue"><b>DNS server</b></span> and finds the real address of the <span class="light-blue"><b>server</b></span> that the website
+                            lives on. </li>
+                        <li>The browser sends an <span class="light-blue"><b>HTTP request</b></span> message to the server asking it to send a copy of the
+                            website to the client.</li>
+                        <li>If the server approves the client's request, the server sends the client a <span class="light-blue"><b>"200 OK" message</b></span>,
+                            which means "Permission granted! Here you go!", and then starts sending the website's files
+                            to the browser as a series of small chunks.</li>
+                        <li>The browser assembles the small chunks into a complete website and displays it to you! </li>
+                    </ol>
+                    <div class="bottom-container">
+                        <div class="btm-cnt">
+                        <img src="images/html.png" alt="The big 3 img">
+                        <div>
+                            <h4>The Big 3 - HTML, CSS, JavaScript</h4>
+                            <p>While the server can process information in many different languages, the files that they
+                                serve to the client are always going to be some combination of HTML, CSS, and
+                                JavaScript!
+                                Learn more about the Big 3 <span class="light-blue"><b><a href="#">here</a></b></span> !
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
